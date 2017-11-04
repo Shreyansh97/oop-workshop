@@ -1,4 +1,4 @@
-import myPackages.p1.Max;
+import myPackages.p1.Max;	
 import java.util.Scanner;
 
 public class MaxDemo{
