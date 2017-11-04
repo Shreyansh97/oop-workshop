@@ -1,5 +1,3 @@
-package Constructors;
-
 class Box {
     double width;
     double height;
