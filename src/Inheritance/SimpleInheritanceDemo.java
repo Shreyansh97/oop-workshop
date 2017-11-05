@@ -1,6 +1,6 @@
 class A{
 	int i,j;
-	show(){
+	void show(){
 		System.out.println("i = "+i);
 		System.out.println("j = "+j);
 	}
@@ -9,7 +9,7 @@ class B extends A{
 	int k;
 	void show(){
 		// super.show();
-		System.out.pritnln("k = "+k);
+		System.out.println("k = "+k);
 	}
 }
 class SimpleInheritanceDemo{

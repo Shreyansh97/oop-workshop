@@ -28,6 +28,10 @@ class Box {
 	double volume() {
 		return width * height * depth;
 	}
+
+	double getWidth(){
+		return width;
+	}
 }
 
 // BoxWeight now fully implements all constructors.
