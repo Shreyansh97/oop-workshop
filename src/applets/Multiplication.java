@@ -2,7 +2,7 @@ import java.awt.*;
 import java.applet.*;
 /*
 <applet code="Multiplication" width=300 height=200>
-		<param name="number" value=5>
+		<param name="number" value=10>
 	</applet>
 */
 public class Multiplication extends Applet{

@@ -10,6 +10,7 @@ public class MessageScroll extends Applet implements Runnable{
 				Thread.sleep(250);
 				repaint();
 			}catch(InterruptedException ie){}
+			// repaint();
 		}
 	}
 	public void init(){

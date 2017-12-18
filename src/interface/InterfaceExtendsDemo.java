@@ -1,4 +1,5 @@
 interface A{
+	int a=10;
 	void meth1();
 	void meth2();
 }
@@ -7,8 +8,13 @@ interface B extends A{
 	void meth3();
 }
 
+interface D extends B{
+	void meth4();
+}
+
 class C implements B{
 	public void meth1(){
+		a=6;
 		System.out.println("Meth1");
 	}
 	public void meth2(){
